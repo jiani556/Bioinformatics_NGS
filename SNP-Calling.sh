@@ -1,5 +1,15 @@
 #!/bin/bash
 #SNP-calling pipeline
+
+# The pipeline will have the following steps:
+# 1) Aligning genomic reads to a reference genome
+# 2) Processing the alignment file (conversion, sorting, alignment improvement)
+# 3) Calling the variants
+# You will be using the following tools for the development of the pipeline:
+# 1) bwaforthealignment:http://bio-bwa.sourceforge.net/
+# 2) samtools/HTSpackageforprocessingandcallingvariants:http://www.htslib.org/
+# 3) GATKforimprovingthealignment:https://software.broadinstitute.org/gatk/
+
 #define usage function
 programname=$0
 usage(){
