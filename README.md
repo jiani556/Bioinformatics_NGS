@@ -1,7 +1,5 @@
 # Bioinformatics_NGS
 
-
-# Includes Perl Scripts for: 
 1. Coverage.pl 
 - find overlaps in a BED file.
 - ```Usage: ./coverage.pl <input bed file name> <output file name> ```
