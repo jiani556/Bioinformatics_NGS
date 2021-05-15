@@ -1,6 +1,10 @@
 # Bioinformatics_NGS
 
-Coverage.pl - find overlaps in a BED file.
+
+# Includes Perl Scripts for: 
+1. Coverage.pl 
+- find overlaps in a BED file.
+- ```Usage: ./coverage.pl <input bed file name> <output file name> ```
 
 FindOrtholog.pl - find orthologous genes using BLAST 
 
